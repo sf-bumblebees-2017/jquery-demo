@@ -16,7 +16,7 @@ function handleTaskFormSubmission (){
 }
 
 function handleDeleteButtonClick(){
-  $('.tasks .delete').on('click', function(){
+  $('.tasks').on('click', '.delete', function(){
     $(this).closest('li').remove()
   })
 }
